@@ -106,7 +106,7 @@
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                           PA3 //Original pin: PB1
+  #define FAN_PIN                           PB1
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PA0
@@ -157,31 +157,31 @@
   //
 
   #ifndef X_SERIAL_TX_PIN
-    #define X_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
+    //#define X_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
   #endif
   #ifndef X_SERIAL_RX_PIN
-    #define X_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
+    //#define X_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
   #endif
 
   #ifndef Y_SERIAL_TX_PIN
-    #define Y_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
+    //#define Y_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
   #endif
   #ifndef Y_SERIAL_RX_PIN
-    #define Y_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
+    //#define Y_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
   #endif
 
   #ifndef Z_SERIAL_TX_PIN
-    #define Z_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
+    //#define Z_SERIAL_TX_PIN  PA6 //E1_STEP_PIN
   #endif
   #ifndef Z_SERIAL_RX_PIN
-    #define Z_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
+    //#define Z_SERIAL_RX_PIN  PA1 //E1_DIR_PIN
   #endif
 
   #ifndef E0_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN PA6 //E1_STEP_PIN
+    //#define E0_SERIAL_TX_PIN PA6 //E1_STEP_PIN
   #endif
   #ifndef E0_SERIAL_RX_PIN
-    #define E0_SERIAL_RX_PIN PA1 //E1_DIR_PIN
+    //#define E0_SERIAL_RX_PIN PA1 //E1_DIR_PIN
   #endif
 #endif
 
