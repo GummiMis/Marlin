@@ -751,7 +751,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.3, 80.3, 400, 412 }  // Change stock screw Tr8x2 with customs screw Tr8x8 
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.3, 80.3, 1600, 412 } 
 
 /**
  * Default Max Feed Rate (mm/s)
