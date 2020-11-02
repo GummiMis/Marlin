@@ -751,7 +751,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.3, 80.3, 400, 412 } // Xchange stock Tr8x2 to customs Tr8x8
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.3, 80.3, 1600, 412 } 
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1142,7 +1142,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE + 5
-#define Z_MAX_POS 205
+#define Z_MAX_POS 230
 
 /**
  * Software Endstops
